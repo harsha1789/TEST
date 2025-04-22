@@ -1,4 +1,4 @@
-name: RepoGuardianBot Scan1
+name: RepoGuardianBot Scan
 
 on:
   pull_request:
