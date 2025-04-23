@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="tests" thread-count="10"
+	verbose="10">
+	
+				
+<!--	<test name="Regression Suite for Device 1">
+			<parameter name="ipAddress" value="127.0.0.1" />
+			<parameter name="deviceid" value="080293723A010169" />
+			<parameter name="port" value="4723" />
+			<parameter name="platformVersion" value="11" />
+			<parameter name="proxy" value="0" />
+			<parameter name="username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="TECNO SPARK 8C" />
+			<parameter name="LockType" value="Pin" />
+			<parameter name="LockKey" value="00000" />
+			<parameter name="GameName" value="MobileSoccer" />
+			<parameter name="checkedOutDeviceNum" value="1" />
+			<classes>
+				<class name="com.zensar.automation.framework.driver.MobileDriver" />
+			</classes>
+		</test> -->
+			
+		
+	<test name="Regression Suite for Device 1">
+			<parameter name="ipAddress" value="127.0.0.1" />
+			<parameter name="deviceid" value="R8YWC0DBWNZ" />
+			<parameter name="port" value="4723" />
+			<parameter name="platformVersion" value="12" />
+			<parameter name="proxy" value="0" />
+			<parameter name="username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="Galaxy A04e" />
+			<parameter name="LockType" value="Pin" />
+			<parameter name="LockKey" value="00000" />
+			<parameter name="GameName" value="MobileSoccer" />
+			<parameter name="checkedOutDeviceNum" value="1" />
+			<classes>
+				<class name="com.zensar.automation.framework.driver.MobileDriver" />
+			</classes>
+		</test> 
+			
+<!--	<test name="Regression Suite for Device 2">
+			<parameter name="ipAddress" value="127.0.0.1" />
+			<parameter name="deviceid" value="R8YWC0DBWNZ" />
+			<parameter name="port" value="4723" />
+			<parameter name="platformVersion" value="14" />
+			<parameter name="proxy" value="0" />
+			<parameter name="username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="Galaxy A04e" />
+			<parameter name="LockType" value="Pin" />
+			<parameter name="LockKey" value="0000" />
+			<parameter name="GameName" value="MobileSoccer" />
+			<parameter name="checkedOutDeviceNum" value="2" />
+			<classes>
+				<class name="com.zensar.automation.framework.driver.MobileDriver" />
+			</classes>
+		</test>
+			
+			
+ 	 <test name="Regression Suite for Device 3">
+			<parameter name="ipAddress" value="127.0.0.1" />
+			<parameter name="deviceid" value="10357313BA060320" />
+			<parameter name="port" value="4723" />
+	    	<parameter name="platformVersion" value="12" />
+			<parameter name="proxy" value="0" />
+			<parameter name="username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="TECNO SPARK Go 2023" />
+			<parameter name="LockType" value="Pin" />
+			<parameter name="LockKey" value="0000" />
+			<parameter name="GameName" value="MobileSoccer" />
+			<parameter name="checkedOutDeviceNum" value="3" />
+			<classes>
+				<class name="com.zensar.automation.framework.driver.MobileDriver" />
+			</classes>
+		</test>  -->
+
+
+
+     <test name="Regression Suite for Device 4">
+			<parameter name="ipAddress" value="127.0.0.1" />
+			<parameter name="deviceid" value="0971315396001933" />
+			<parameter name="port" value="4723" />
+	    	<parameter name="platformVersion" value="12" />
+			<parameter name="proxy" value="0" />
+			<parameter name="username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="TECNO POP 7" />
+			<parameter name="LockType" value="Pin" />
+			<parameter name="LockKey" value="0000" />
+			<parameter name="GameName" value="MobileSoccer" />
+			<parameter name="checkedOutDeviceNum" value="4" />
+			<classes>
+				<class name="com.zensar.automation.framework.driver.MobileDriver" />
+			</classes>
+		</test> 
+		
+		
+	<!--  <test name="Regression Suite for Device 5">
+			<parameter name="ipAddress" value="127.0.0.1" />
+			<parameter name="deviceid" value="R7AW605668E" />
+			<parameter name="port" value="4723" />
+			<parameter name="platformVersion" value="13" />
+			<parameter name="proxy" value="0" />
+			<parameter name="username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="Galaxy A03 Core" />
+			<parameter name="LockType" value="Pin" />
+			<parameter name="LockKey" value="0000" />
+			<parameter name="GameName" value="MobileSoccer" />
+			<parameter name="checkedOutDeviceNum" value="5" />
+			<classes>
+				<class name="com.zensar.automation.framework.driver.MobileDriver" />
+			</classes>
+		</test> -->
+		
+			
+ </suite>

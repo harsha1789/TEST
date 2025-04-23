@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="tests" thread-count="10"
+	verbose="10">
+	
+<!--   <test name="Regression Suite for Device 1">
+		<parameter name="IpAddress" value="127.0.0.1" />
+			<parameter name="DeviceId" value="080293723A010169"/>
+			<parameter name="Port" value="4723" />
+			<parameter name="OSVersion" value="11" />
+		    <parameter name="Proxy" value="0"/>
+			<parameter name="Username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="TECNO SPARK 8C" />
+			<parameter name="Browser" value="Chrome"/>
+            <parameter name="OSPlatform" value="Android"/>
+            <parameter name="GameName" value="MobileSoccer" />
+    <classes>
+        <class name="com.zensar.automation.framework.driver.MobileDriver" />
+    </classes>
+</test> -->
+
+  <test name="Regression Suite for Device 1">
+		<parameter name="IpAddress" value="127.0.0.1" />
+			<parameter name="DeviceId" value="R8YWC0DBWNZ"/>
+			<parameter name="Port" value="4723" />
+			<parameter name="OSVersion" value="12" />
+		    <parameter name="Proxy" value="0"/>
+			<parameter name="Username" value="Akhil" />
+			<parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="Galaxy A04e" />
+			<parameter name="Browser" value="Chrome"/>
+            <parameter name="OSPlatform" value="Android"/>
+            <parameter name="GameName" value="MobileSoccer" />
+    <classes>
+        <class name="com.zensar.automation.framework.driver.MobileDriver" />
+    </classes>
+</test> 
+
+ <!--  <test name="Regression Suite for Device 2">
+      <parameter name="IpAddress" value="127.0.0.1" />
+        <parameter name="DeviceId" value= "R8YWC0DBWNZ" />
+        <parameter name="Port" value="4723" />
+        <parameter name="OSVersion" value="14" />
+        <parameter name="Proxy" value="0" />
+        <parameter name="Username" value="Akhil" />
+        <parameter name="ZenReplica" value= "True" />
+        <parameter name="DeviceName" value="Galaxy A04e" />
+        <parameter name="Browser" value="chrome" />
+        <parameter name="OSPlatform" value="Android" />
+        <parameter name="GameName" value="MobileSoccer" />
+     <classes>
+        <class name="com.zensar.automation.framework.driver.MobileDriver" />
+    </classes>
+</test>
+
+
+   <test name="Regression Suite for Device 3">
+			<parameter name="IpAddress" value="127.0.0.1" />
+			<parameter name="DeviceId" value="10357313BA060320" />
+			<parameter name="Port" value="4723" />
+            <parameter name="OSVersion" value="12" />
+            <parameter name="Proxy" value="0" />
+            <parameter name="Username" value="Akhil" />
+            <parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="TECNO SPARK Go 2023" />
+			  <parameter name="Browser" value="chrome" />
+        <parameter name="OSPlatform" value="Android" />
+        <parameter name="GameName" value="MobileSoccer" />
+     <classes>
+        <class name="com.zensar.automation.framework.driver.MobileDriver" />
+    </classes>
+		</test>  -->
+		
+		
+		
+  <!-- <test name="Regression Suite for Device 4">
+			<parameter name="IpAddress" value="127.0.0.1" />
+			<parameter name="DeviceId" value="0971315396001933" />
+			<parameter name="Port" value="4723" />
+            <parameter name="OSVersion" value="12" />
+            <parameter name="Proxy" value="0" />
+            <parameter name="Username" value="Akhil" />
+            <parameter name="ZenReplica" value= "True" />
+			<parameter name="DeviceName" value="TECNO POP 7" />
+			  <parameter name="Browser" value="chrome" />
+        <parameter name="OSPlatform" value="Android" />
+        <parameter name="GameName" value="MobileSoccer" />
+     <classes>
+        <class name="com.zensar.automation.framework.driver.MobileDriver" />
+    </classes>
+		</test>  
+		
+		
+		
+  <test name="Regression Suite for Device 5">
+      <parameter name="IpAddress" value="127.0.0.1" />
+        <parameter name="DeviceId" value= "R7AW605668E" />
+        <parameter name="Port" value="4723" />
+        <parameter name="OSVersion" value="13" />
+        <parameter name="Proxy" value="0" />
+        <parameter name="Username" value="Akhil" />
+        <parameter name="ZenReplica" value= "True" />
+        <parameter name="DeviceName" value="Galaxy A03 Core" />
+        <parameter name="Browser" value="chrome" />
+        <parameter name="OSPlatform" value="Android" />
+        <parameter name="GameName" value="MobileSoccer" />
+     <classes>
+        <class name="com.zensar.automation.framework.driver.MobileDriver" />
+    </classes>
+ </test> -->
+
+	
+ </suite>
+      
+    
+        
+
+   

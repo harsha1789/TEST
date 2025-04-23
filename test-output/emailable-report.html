@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Parallel test suite</th></tr>
+<tr><td><a href="#t0">Regression Suite for Device 1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">294</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Regression Suite for Device 2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">294</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Regression Suite for Device 4</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">294</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Regression Suite for Device 3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">294</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">1,176</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel test suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Suite for Device 1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver</td><td><a href="#m0">closeBrowser</a></td><td rowspan="1">1745234207936</td><td rowspan="1">12</td></tr><tr><th colspan="4">Regression Suite for Device 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver</td><td><a href="#m1">test</a></td><td rowspan="1">1745234207684</td><td rowspan="1">250</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Regression Suite for Device 2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver2</td><td><a href="#m2">closeBrowser</a></td><td rowspan="1">1745234207936</td><td rowspan="1">12</td></tr><tr><th colspan="4">Regression Suite for Device 2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver2</td><td><a href="#m3">test</a></td><td rowspan="1">1745234207684</td><td rowspan="1">249</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Regression Suite for Device 4 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver4</td><td><a href="#m4">closeBrowser</a></td><td rowspan="1">1745234207936</td><td rowspan="1">12</td></tr><tr><th colspan="4">Regression Suite for Device 4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver4</td><td><a href="#m5">test</a></td><td rowspan="1">1745234207684</td><td rowspan="1">249</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Regression Suite for Device 3 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver3</td><td><a href="#m6">closeBrowser</a></td><td rowspan="1">1745234207936</td><td rowspan="1">12</td></tr><tr><th colspan="4">Regression Suite for Device 3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.zensar.automation.framework.driver.DesktopDriver3</td><td><a href="#m7">test</a></td><td rowspan="1">1745234207684</td><td rowspan="1">250</td></tr></tbody>
+</table>
+<h2>Regression Suite for Device 1</h2><h3 id="m0">com.zensar.automation.framework.driver.DesktopDriver#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;text&quot; is null
+	at java.base/java.text.SimpleDateFormat.parse(SimpleDateFormat.java:1474)
+	at java.base/java.text.DateFormat.parse(DateFormat.java:397)
+	at com.zensar.automation.framework.report.Desktop_HTML_Report.buildAutomationSummary(Desktop_HTML_Report.java:548)
+	at com.zensar.automation.framework.driver.DesktopDriver.closeBrowser(DesktopDriver.java:437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.zensar.automation.framework.driver.DesktopDriver#test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>Harsha</td><td>Windows</td><td>Soccer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Suite for Device 2</h2><h3 id="m2">com.zensar.automation.framework.driver.DesktopDriver2#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;text&quot; is null
+	at java.base/java.text.SimpleDateFormat.parse(SimpleDateFormat.java:1474)
+	at java.base/java.text.DateFormat.parse(DateFormat.java:397)
+	at com.zensar.automation.framework.report.Desktop_HTML_Report.buildAutomationSummary(Desktop_HTML_Report.java:548)
+	at com.zensar.automation.framework.driver.DesktopDriver2.closeBrowser(DesktopDriver2.java:439)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.zensar.automation.framework.driver.DesktopDriver2#test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>Harsha</td><td>Windows</td><td>Soccer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Suite for Device 4</h2><h3 id="m4">com.zensar.automation.framework.driver.DesktopDriver4#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;text&quot; is null
+	at java.base/java.text.SimpleDateFormat.parse(SimpleDateFormat.java:1474)
+	at java.base/java.text.DateFormat.parse(DateFormat.java:397)
+	at com.zensar.automation.framework.report.Desktop_HTML_Report.buildAutomationSummary(Desktop_HTML_Report.java:548)
+	at com.zensar.automation.framework.driver.DesktopDriver4.closeBrowser(DesktopDriver4.java:439)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.zensar.automation.framework.driver.DesktopDriver4#test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>Harsha</td><td>Windows</td><td>Soccer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Suite for Device 3</h2><h3 id="m6">com.zensar.automation.framework.driver.DesktopDriver3#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;text&quot; is null
+	at java.base/java.text.SimpleDateFormat.parse(SimpleDateFormat.java:1474)
+	at java.base/java.text.DateFormat.parse(DateFormat.java:397)
+	at com.zensar.automation.framework.report.Desktop_HTML_Report.buildAutomationSummary(Desktop_HTML_Report.java:548)
+	at com.zensar.automation.framework.driver.DesktopDriver3.closeBrowser(DesktopDriver3.java:439)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.zensar.automation.framework.driver.DesktopDriver3#test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>Harsha</td><td>Windows</td><td>Soccer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

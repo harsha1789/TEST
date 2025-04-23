@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [Parallel test suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="10" parallel="tests" name="Regression Suite for Device 1(failed)" verbose="10">
+    <parameter name="OSplatform" value="Windows"/>
+    <parameter name="gameName" value="Soccer"/>
+    <parameter name="Browser" value="Chrome"/>
+    <parameter name="username" value="Pratik"/>
+    <classes>
+      <class name="com.zensar.automation.framework.driver.DesktopDriver">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zensar.automation.framework.driver.DesktopDriver -->
+    </classes>
+  </test> <!-- Regression Suite for Device 1(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
