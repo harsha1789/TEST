@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!-- User ID 	 : ZENDER\sj46487--><!-- Date 	 : 19-May-2021 15:30:47--><Test>
+  <Key clientID="50305" loginName="Rugb_Lang" moduleID="11183"/>
+  <Slot>
+    <ReelSet name="Normal Reels">
+	<ReelPos indexes="2,5,0" symbols="Watermelon,Blank,RedPanda"/>
+        <ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+    </ReelSet>
+  </Slot>
+</Test>

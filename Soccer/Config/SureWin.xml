@@ -1,0 +1,130 @@
+<XML>
+   <VersionInfo version="2017.08.03.4" requiredExeVersion="300"/>
+   <ServiceInfo moduleId="11183" slotPacketCodecs="V6XMLAdvancedSlot"/>
+   <Slot name="rugbyPennyroller">
+      <BetInfo method="MultipleCoinsPerLine" minNumCoins="1" maxNumCoins="3" defaultNumCoins="3" defaultPaylines="0" validChipSizes="1,2,5,10,20,25,50,100,200,500,1000,2000,2500,5000,10000"/>
+      <SymbolSet>
+         <Symbol name="RedPanda" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="YellowPanda" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="PurplePanda" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="BluePanda" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="PinkPanda" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="Watermelon" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="Banana" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="Grape" isWild="0" canWildSubstitute="0"/>
+         <Symbol name="Blank" isWild="0" canWildSubstitute="0"/>
+      </SymbolSet>
+      <ReelSets>
+         <ReelSet name="Normal Reels">
+            <Reel type="WeightedPhysical" defaultPos="1">
+				<Symbol name="RedPanda" freq="5" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Watermelon" freq="7" />
+				<Symbol name="Blank" freq="1" />
+				<Symbol name="YellowPanda" freq="5" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Banana" freq="6" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Grape" freq="11" />
+				<Symbol name="Blank" freq="1" />
+				<Symbol name="PurplePanda" freq="9" />
+				<Symbol name="Blank" freq="1" />
+				<Symbol name="Watermelon" freq="5" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="BluePanda" freq="15" />
+				<Symbol name="Blank" freq="1" />
+				<Symbol name="Banana" freq="6" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="PinkPanda" freq="11" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Grape" freq="10" />
+				<Symbol name="Blank" freq="2" />
+           </Reel>
+            <Reel type="WeightedPhysical" defaultPos="1">
+				<Symbol name="RedPanda" freq="3" />
+				<Symbol name="Blank" freq="3" />
+				<Symbol name="Watermelon" freq="10" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="YellowPanda" freq="6" />
+				<Symbol name="Blank" freq="3" />
+				<Symbol name="Banana" freq="2" />
+				<Symbol name="Blank" freq="3" />
+				<Symbol name="Grape" freq="17" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="PurplePanda" freq="6" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Watermelon" freq="9" />
+				<Symbol name="Blank" freq="3" />
+				<Symbol name="BluePanda" freq="2" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Banana" freq="2" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="PinkPanda" freq="12" />
+				<Symbol name="Blank" freq="2" />
+				<Symbol name="Grape" freq="14" />
+				<Symbol name="Blank" freq="3" />
+            </Reel>
+            <Reel type="WeightedPhysical" defaultPos="1">
+				<Symbol name="RedPanda" freq="1" />
+				<Symbol name="Blank" freq="7" />
+				<Symbol name="Watermelon" freq="1" />
+				<Symbol name="Blank" freq="5" />
+				<Symbol name="YellowPanda" freq="2" />
+				<Symbol name="Blank" freq="5" />
+				<Symbol name="Banana" freq="15" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="Grape" freq="1" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="PurplePanda" freq="2" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="Watermelon" freq="2" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="BluePanda" freq="6" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="Banana" freq="15" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="PinkPanda" freq="2" />
+				<Symbol name="Blank" freq="4" />
+				<Symbol name="Grape" freq="2" />
+				<Symbol name="Blank" freq="8" />
+            </Reel>
+         </ReelSet>
+      </ReelSets>
+      <VisibleArea width="3" height="3">
+         <Matrix>
+            <VisAreaEntry reelId="0" bias="1"/>
+            <VisAreaEntry reelId="1" bias="1"/>
+            <VisAreaEntry reelId="2" bias="1"/>
+            <VisAreaEntry reelId="0" bias="0"/>
+            <VisAreaEntry reelId="1" bias="0"/>
+            <VisAreaEntry reelId="2" bias="0"/>
+            <VisAreaEntry reelId="0" bias="-1"/>
+            <VisAreaEntry reelId="1" bias="-1"/>
+            <VisAreaEntry reelId="2" bias="-1"/>
+         </Matrix>
+         <Paylines>
+            <Payline indexes="3,4,5"/>
+         </Paylines>
+      </VisibleArea>
+      <WinningCombinations>
+         <WinCombination clientTag="0" name="RedPanda" numSymbolsRequired="3" direction="UnOrdered" symbols="RedPanda" payouts="1000,2000,3333"/>
+         <WinCombination clientTag="1" name="YellowPanda" numSymbolsRequired="3" direction="UnOrdered" symbols="YellowPanda" payouts="300,600,900"/>
+         <WinCombination clientTag="2" name="PurplePanda" numSymbolsRequired="3" direction="UnOrdered" symbols="PurplePanda" payouts="120,240,360"/>
+         <WinCombination clientTag="3" name="BluePanda" numSymbolsRequired="3" direction="UnOrdered" symbols="BluePanda" payouts="60,120,180"/>
+         <WinCombination clientTag="4" name="PinkPanda" numSymbolsRequired="3" direction="UnOrdered" symbols="PinkPanda" payouts="40,80,120"/>
+         <WinCombination clientTag="5" name="Watermelon" numSymbolsRequired="3" direction="UnOrdered" symbols="Watermelon" payouts="30,60,90"/>
+         <WinCombination clientTag="6" name="Banana" numSymbolsRequired="3" direction="UnOrdered" symbols="Banana" payouts="25,50,75"/>
+         <WinCombination clientTag="7" name="Grape" numSymbolsRequired="3" direction="UnOrdered" symbols="Grape" payouts="20,40,60"/>
+         <!--Any High 1 Wins-->
+		<WinCombination clientTag="8" name="Any2RedPanda" numSymbolsRequired="2" direction="UnOrdered" symbols="RedPanda" payouts="15,30,45" />
+		<WinCombination clientTag="9" name="AnyRedPanda" numSymbolsRequired="1" direction="UnOrdered" symbols="RedPanda" payouts="10,20,30" />
+
+      </WinningCombinations>
+	  
+
+	  
+	  
+   </Slot>
+   
+
+</XML>

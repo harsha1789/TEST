@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!-- User ID 	 : ZENDER\pb61055--><!-- Date 	 : 4-Aug-2021 18:27:21--><Test>
+  <Key clientID="50305" loginName="Zen_otqhfyx" moduleID="11183"/>
+  <Slot>
+   <ReelSet doNotLoop="true" name="Normal Reels">
+        <ReelPos indexes="2,5,0" symbols="Watermelon,Blank,RedPanda"/>
+        <ReelPos indexes="0,0,0" symbols="RedPanda,RedPanda,RedPanda"/>
+        <ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+	<ReelPos indexes="18,18,14" symbols="PinkPanda,PinkPanda,BluePanda"/>
+     </ReelSet>
+  </Slot>
+</Test>
