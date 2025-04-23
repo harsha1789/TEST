@@ -1,52 +1,33 @@
 import os
-import platform
-import subprocess
+from scanners.security import run_bandit_scan
+from scanners.secrets import run_trufflehog_scan
+from scanners.static_analysis import run_semgrep_scan
+from scanners.zap import run_zap_scan
+from scanners.ssl_scan import run_ssl_scan
+from scanners.performance import run_performance_check
+from utils.summary import generate_summary
 
-# Ensure reports directory exists
-REPORT_DIR = "repo_guardian_bot/reports"
+REPORT_DIR = "repo_guardian_bot_v2/reports"
 os.makedirs(REPORT_DIR, exist_ok=True)
 
-def run_bandit_scan():
-    try:
-        subprocess.run([
-            "bandit", "-r", ".", "-f", "json", "-o", f"{REPORT_DIR}/bandit.json"
-        ], check=True)
-        return f"Security issues report saved to {REPORT_DIR}/bandit.json"
-    except Exception as e:
-        return f"Bandit scan failed: {str(e)}"
-
-def run_trufflehog_scan():
-    try:
-        with open(f"{REPORT_DIR}/trufflehog.json", "w") as f:
-            subprocess.run([
-                 "trufflehog", "filesystem", ".", "--json"
-            ], stdout=f, check=True)
-        return f"Secrets scan saved to {REPORT_DIR}/trufflehog.json"
-    except Exception as e:
-        return f"TruffleHog scan failed: {str(e)}"
-
-def run_semgrep_scan():
-    if platform.system() == "Windows":
-        return "Semgrep skipped: not supported on Windows natively. Use WSL."
-    try:
-        subprocess.run([
-            "semgrep", "scan", "--config=auto", "--json", "--output", f"{REPORT_DIR}/semgrep.json"
-        ], check=True)
-        return f"Static analysis saved to {REPORT_DIR}/semgrep.json"
-    except Exception as e:
-        return f"Semgrep scan failed: {str(e)}"
-
 def main():
-    print("[INFO] Running RepoGuardianBot scans...")
-    bandit_results = run_bandit_scan()
-    trufflehog_results = run_trufflehog_scan()
-    semgrep_results = run_semgrep_scan()
+    print("[INFO] Running RepoGuardianBot v2 scans...")
+
+    results = {
+        "Bandit": run_bandit_scan(REPORT_DIR),
+        "TruffleHog": run_trufflehog_scan(REPORT_DIR),
+        "Semgrep": run_semgrep_scan(REPORT_DIR),
+        "ZAP": run_zap_scan(REPORT_DIR),
+        "SSL": run_ssl_scan(REPORT_DIR),
+        "Performance": run_performance_check(REPORT_DIR),
+    }
 
     print("\n[SUMMARY] Scan Results")
     print("-" * 40)
-    print("Bandit:", bandit_results)
-    print("TruffleHog:", trufflehog_results)
-    print("Semgrep:", semgrep_results)
+    for key, val in results.items():
+        print(f"{key}: {val}")
+
+    generate_summary(REPORT_DIR)
 
 if __name__ == "__main__":
     main()
